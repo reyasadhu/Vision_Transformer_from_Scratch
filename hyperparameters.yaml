@@ -1,0 +1,17 @@
+batch_size: 256
+image_size: 32
+patch_size: 4
+n_embd: 64
+hidden_size: 100
+bias: True
+epochs: 100
+dropout: 0
+learning_rate: 1e-2
+weight_decay: 0.0001
+beta1: 0.9
+beta2: 0.990
+num_classes: 10
+num_channels: 3
+n_head: 4
+n_layer: 4
+mlp_expansion_ratio: 4
